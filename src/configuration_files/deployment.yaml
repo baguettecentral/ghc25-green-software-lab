@@ -43,11 +43,6 @@ services:
     deployment:
       machines: ["node3"]
 
-  - name: "fax-service"
-    description: "Legacy Fax service for sending faxes"
-    deployment:
-      machines: ["node2"]
-
 monitoring:
   enabled: true
   metrics_port: 9090
